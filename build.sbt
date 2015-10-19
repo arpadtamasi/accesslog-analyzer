@@ -2,11 +2,9 @@ name := "accesslog-analyzer"
 
 version := "1.0.0-SNAPSHOT"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.10.6"
 
 assemblyJarName in assembly := "accesslog-analyzer.jar"
-
-mainClass in assembly := Some("com.samebug.accesslog.SampleAnalysisJob")
 
 assemblyExcludedJars in assembly <<= (fullClasspath in assembly) map { cp =>
   val excludes = Set(
