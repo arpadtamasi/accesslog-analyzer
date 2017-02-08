@@ -2,7 +2,7 @@ name := "accesslog-analyzer"
 
 version := "1.1.0-SNAPSHOT"
 
-scalaVersion := "2.10.6"
+scalaVersion := "2.11.8"
 
 assemblyJarName in assembly := "accesslog-analyzer.jar"
 
@@ -15,5 +15,5 @@ assemblyExcludedJars in assembly <<= (fullClasspath in assembly) map { cp =>
 }
 
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % "1.5.1" % " provided"
+  "org.apache.spark" %% "spark-core" % "2.1.0" % " provided"
 )
