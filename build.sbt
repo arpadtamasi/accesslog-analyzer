@@ -2,7 +2,7 @@ name := "accesslog-analyzer"
 
 version := "1.1.0-SNAPSHOT"
 
-scalaVersion := "2.10.6"
+scalaVersion := "2.11.8"
 
 assemblyJarName in assembly := "accesslog-analyzer.jar"
 
