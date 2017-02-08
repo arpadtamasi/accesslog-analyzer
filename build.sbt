@@ -15,5 +15,5 @@ assemblyExcludedJars in assembly <<= (fullClasspath in assembly) map { cp =>
 }
 
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % "1.5.1" % " provided"
+  "org.apache.spark" %% "spark-core" % "2.1.0" % " provided"
 )
